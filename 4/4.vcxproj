@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="4.cpp" />
+    <ClCompile Include="LCS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LCS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="lcs_large.txt" />
+    <Text Include="lcs_medium.txt" />
+    <Text Include="lcs_small.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
