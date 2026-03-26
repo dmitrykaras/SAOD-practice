@@ -1,2 +1,6 @@
 ﻿  4.cpp
-  4.vcxproj -> I:\Study\4\d\saod\1\laba1\x64\Debug\4.exe
+  LCS.cpp
+I:\Study\4\d\saod\laba1\4\LCS.cpp(5,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+I:\Study\4\d\saod\laba1\4\LCS.cpp(5,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  4.vcxproj -> I:\Study\4\d\saod\laba1\x64\Debug\4.exe
