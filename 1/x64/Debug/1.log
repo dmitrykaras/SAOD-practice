@@ -1,9 +1,0 @@
-﻿  1.cpp
-I:\Study\4\d\saod\laba1\1\1.cpp(89,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\1\1.cpp(134,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  knapsack01_and_table.cpp
-I:\Study\4\d\saod\laba1\1\knapsack01_and_table.cpp(28,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\1\knapsack01_and_table.cpp(48,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\1\knapsack01_and_table.cpp(68,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
-  1.vcxproj -> I:\Study\4\d\saod\laba1\x64\Debug\1.exe

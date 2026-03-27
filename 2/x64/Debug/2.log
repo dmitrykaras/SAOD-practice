@@ -1,8 +1,0 @@
-﻿  2.cpp
-  constructing_a_Pareto_set_and_table.cpp
-I:\Study\4\d\saod\laba1\2\constructing_a_Pareto_set_and_table.cpp(25,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\2\constructing_a_Pareto_set_and_table.cpp(62,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\2\constructing_a_Pareto_set_and_table.cpp(111,52): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-I:\Study\4\d\saod\laba1\2\constructing_a_Pareto_set_and_table.cpp(121,49): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
-  2.vcxproj -> I:\Study\4\d\saod\laba1\x64\Debug\2.exe
