@@ -1,1 +1,10 @@
 *.vs
+
+bin/
+obj/
+Debug/
+Release/
+x86/
+x64/
+ARM/
+ARM64/
