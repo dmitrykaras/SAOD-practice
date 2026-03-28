@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="laba2.cpp" />
+    <ClCompile Include="Bellman_Moore.cpp" />
+    <ClCompile Include="BFS_DFS.cpp" />
+    <ClCompile Include="Kosaraju.cpp" />
+    <ClCompile Include="Kruskal_Prim.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
