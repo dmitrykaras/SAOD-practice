@@ -134,7 +134,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BFS_DFS.h" />
     <ClInclude Include="common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="graph_large.txt" />
+    <Text Include="graph_medium.txt" />
+    <Text Include="graph_small.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

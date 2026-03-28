@@ -35,5 +35,13 @@
     <ClInclude Include="common.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="BFS_DFS.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="graph_large.txt" />
+    <Text Include="graph_medium.txt" />
+    <Text Include="graph_small.txt" />
   </ItemGroup>
 </Project>

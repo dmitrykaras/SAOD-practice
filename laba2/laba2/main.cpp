@@ -16,17 +16,17 @@ int getSafeInt() {
 }
 
 int main() {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+    // Устанавливаем кодировку сразу при старте
+    SET_CONSOLE_ENCODING();
 
     while (true) {
-        cout << "\nИсследование алгоритмов на графах\n";
+        cout << "Исследование алгоритмов на графах\n";
         cout << "1. Обходы графа (BFS, DFS, DFS-лес)\n";
-        cout << "2. Сильно связные компоненты (Алгоритм Косарайю)\n";
+        cout << "2. Сильно связные компоненты (Алгоритм Косараджу)\n";
         cout << "3. Минимальное остовное дерево (Краскал и Прим)\n";
-        cout << "4. Кратчайшие пути (Беллман-Мур)\n";
+        cout << "4. Кратчайшие пути (Беллман-Форд)\n";
         cout << "0. Выход\n";
-        cout << "Ваше выбор: ";
+        cout << "Ваш выбор: ";
 
         int mode = getSafeInt();
         if (mode == 0) {
@@ -34,7 +34,7 @@ int main() {
             break;
         }
 
-        if (mode >= 5) {
+        if (mode < 0 || mode > 4) {
             cout << "Неверный пункт меню!\n";
             continue;
         }
@@ -42,20 +42,21 @@ int main() {
         if (mode == 1) {
             runBFS_DFS();
         }
-
-        if (mode == 2) {
-            runKosaraju();
+        else if (mode == 2) {
+            // Заглушка, пока не реализовано
+            cout << "\n[INFO] Алгоритм Косараджу будет реализован далее.\n";
+            // runKosaraju(); 
         }
-
-        if (mode == 3) {
-            runKruskal_Prim();
+        else if (mode == 3) {
+            // Заглушка
+            cout << "\n[INFO] Алгоритмы Краскала и Прима будут реализованы далее.\n";
+            // runKruskal_Prim();
         }
-
-        if (mode == 4) {
-            runBellman_Moore();
+        else if (mode == 4) {
+            // Заглушка
+            cout << "\n[INFO] Алгоритм Беллмана-Форда будет реализован далее.\n";
+            // runBellman_Moore();
         }
-
-        cout << "\n\n";
     }
     return 0;
 }
